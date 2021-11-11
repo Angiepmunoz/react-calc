@@ -1,0 +1,12 @@
+.calculator {
+    display: grid;
+    width: 200px;
+}
+
+.display {
+    grid-row: 1;
+    height: 20px;
+    text-align: right;
+    background-color: black;
+    border: 10px;
+}

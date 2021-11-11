@@ -1,0 +1,31 @@
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    background-color: darkgray;
+}
+
+.calc {
+    color: white;
+    background-color: black;
+}
+
+.clear {
+    background-color: grey;
+}
+
+.neg {
+    background-color: grey;
+}
+
+.percent {
+    background-color: grey;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.zero {
+    grid-column: span 2;
+}
